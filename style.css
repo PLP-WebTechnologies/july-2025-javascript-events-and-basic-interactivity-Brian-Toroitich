@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background: #1e1e1e;
+  color: #eee;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  background: #2c7a7b;
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #225e5e;
+}
+
+.faq .faq-answer {
+  display: none;
+  margin: 0 0 10px 15px;
+  color: #444;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}

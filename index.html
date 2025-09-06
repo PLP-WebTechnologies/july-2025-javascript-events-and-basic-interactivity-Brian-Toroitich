@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bitours Interactive Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🌍 Bitours - Explore the World</h1>
+    <button id="themeToggle">Dark Mode</button>
+  </header>
+
+  <!-- Part 1: Event Handling -->
+  <section>
+    <h2>Special Offers</h2>
+    <button id="offerBtn">Show Today’s Offer</button>
+    <p id="offerMessage"></p>
+  </section>
+
+  <!-- Part 2: Interactive Elements -->
+  <section>
+    <h2>Popular Packages</h2>
+    <div class="faq">
+      <h3 class="faq-question">Safari Adventure 🦁</h3>
+      <p class="faq-answer">Experience Kenya’s wildlife up close with our 5-day safari package.</p>
+
+      <h3 class="faq-question">Beach Getaway 🏖️</h3>
+      <p class="faq-answer">Relax on the coast with 3 nights in Diani Beach, including meals and activities.</p>
+
+      <h3 class="faq-question">Cultural Tour 🎭</h3>
+      <p class="faq-answer">Discover Kenya’s rich traditions with guided cultural experiences.</p>
+    </div>
+  </section>
+
+  <!-- Part 3: Booking Form Validation -->
+  <section>
+    <h2>Book Your Tour</h2>
+    <form id="bookingForm">
+      <label>Full Name: <input type="text" id="fullname"></label><br>
+      <label>Email: <input type="text" id="email"></label><br>
+      <label>Number of Guests: <input type="number" id="guests"></label><br>
+      <label>Password: <input type="password" id="password"></label><br>
+      <button type="submit">Book Now</button>
+    </form>
+    <p id="formFeedback"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
